@@ -3,6 +3,12 @@
     display:flex;
     justify-content: center;
     padding: 5px 3px;
+    position:fixed;
+    top:0;
+    width:100%;
+    position: sticky;
+    top:0;
+    /* 부모의  너비를 100% 다가진다. 50%이면 50%만의 너비안에서만 움직인다는 뜻  */
 }
 .status-bar__column{
     width: 33%;
