@@ -9,6 +9,16 @@
     align-items: center;
     color: white;
     font-weight: 600;
- 
     left: 20px;
+    
+       }
+    .screen-header__icons{
+        position: relative;
     }
+   .screen-header__icon__notification{
+position: absolute;
+background-color: tomato;
+width: 5px;
+height: 5px;
+border-radius: 15px;   }
+
