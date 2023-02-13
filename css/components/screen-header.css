@@ -3,7 +3,6 @@
 display:flex;
 justify-content: space-between;
 align-items: center;
-padding: 25px;
 padding: var(--horizontal-space);
 margin-bottom: 15px;
 }
@@ -16,4 +15,12 @@ font-weight: 600;}
 
 margin-left: 25px;
 
+}
+
+.screen-header__icons{
+    position: relative;
+}
+.screen-header__icon__notification {
+position: absolute;
+left: 130px;
 }

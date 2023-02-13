@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - KokoaTalk</title>
+    <title>Settings - KokoaTalk</title>
   </head>
 
   <body>
@@ -25,37 +25,34 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span> <i class="fas fa-comment fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span
-        ><span><i class="fas fa-cog fa-lg"></i></span>
-      </div>
-    </header>
+    <header class="alt-header">
+        <div class="alt-header__column"><a href="more.html"><i class="fas fa-angle-left fa-2x"></i></a></div>
+        <div class="alt-header__column"><h1 class="alt-header__title">Settings</h1></div>
+        <div class="alt-header__column"><i class="fas fa-search fa-lg"></i></div>
+       </header>
+       
 
-    <!-- friends.css -->
-    <main class="main-screen">
-      <a href="chat.html">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__avatar user-component__avatar"
-            src="https://upload.wikimedia.org/wikipedia/commons/e/e3/KakaoTalk_logo.svg"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">KakaoTalk</h4>
-            <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6> 
-          </div>
-          </div>
-        <div class="user-component__column">
-            <span class="user-component__time"> 21:30</span><div class="badge">1</div>
-        </div>
-        </div>
-          </div>
-        </a>
+
+    <main class="main-screen more-screen">
+      
+   <ul class="settings-list">
+    <li class="settings__setting"><div class="settings__setting-column"><i class="fas fa-exclamation-triangle"></i><span>Notices</span></div>
+        <div class="settings_setting"></div><div class="settings__setting-column"></div>
+    </li>
+    <li class="settings__setting"><div class="settings__setting-column"><i class="fas fa-vials"></i><span>Kakao Lab</span></div>
+        <div class="settings__setting-column"></div>
+
+    </li>
+    <li class="settings__setting"><div class="settings__setting-column"><i class="fas fa-vials"></i><span>Version</span></div>
+        <div class="settings__setting-column">Lastest Version</div>
+    </li>
+   </ul>
+    
+
+
+    </div>
     </main>
+
     <!-- friends screen ends -->
     <nav class="nav">
       <ul class="nav__list">
@@ -65,14 +62,15 @@
           ></a>
         </li>
         <li class="nav__btn">
-            <a class="nav__link" href="chats.html"
-              ><span class="nav_notification badge">1</span
-              ><i class="fas fa-comment fa-2x"></i
-            ></a>
-        
+          <a class="nav__link" href="chats.html"
+            ><span class="nav_notification badge">1</span
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html"
