@@ -81,22 +81,34 @@ color:gray;}
 }
 .open-post-photo
 {position:relative;}
+
 .open-post__heartnumber{
+    display:flex;
     position: absolute;
     color: white;
-   
     border-radius: 15px;
     font-size: 14px;
-    background-color: rgba(0,0,0,0.3);
     bottom: 10px;
     left: 30px;
-    padding: 0px 10px;
-
-    
-
-
-    
+    padding: 0px 10px;    
 }
-.alt-header__column span:last-child{
-    margin:20px;
+.open-post__heartnumber span{
+    margin-left: 1px;
 }
+
+@keyframes heartBeat{
+    0%{
+        color: white;
+    transform: none;}
+    50%{
+        color: tomato;
+        transform: scale(1.2);}
+    100%{
+        color: white;
+        transform: none;}
+}
+
+
+.open-post__heartnumber:hover i{
+    will-change: transform;
+animation: heartBeat 1s linear infinite;}

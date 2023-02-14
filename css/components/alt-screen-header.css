@@ -3,6 +3,7 @@
     margin-bottom: 15px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .alt-header__title{
@@ -31,4 +32,10 @@ justify-content: flex-end;
 align-items: center;
 }
 
-.chat-time
+.main-chat{
+    margin-top: 50px;
+}
+
+/* .alt-header__title{
+    justify-content: center;
+} */

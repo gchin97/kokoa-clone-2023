@@ -21,6 +21,17 @@ margin-left: 25px;
     position: relative;
 }
 .screen-header__icon__notification {
-position: absolute;
 left: 130px;
+}
+
+@keyframes rotateCog{
+    from{
+transform: none;
+    }
+    to{
+transform: rotateZ(180deg);
+    }
+}
+.screen-header__icons .fa-cog:hover{
+animation: rotateCog 1s linear infinite;
 }
