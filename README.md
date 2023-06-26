@@ -1,3 +1,1 @@
-#Kokoa Clone 2023 Update
-
-I miss my family!
+# Hello! This is my project I made during nomadcoders course.
